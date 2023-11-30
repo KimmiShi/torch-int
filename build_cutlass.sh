@@ -1,6 +1,6 @@
-export CUDACXX=/usr/local/cuda/bin/nvcc
-export CC=/usr/bin/gcc
-export CXX=/usr/bin/g++
+export CUDACXX=/mnt/petrelfs/share/cuda-11.7/bin/nvcc
+# export CC=/usr/bin/gcc
+# export CXX=/usr/bin/g++
 cd submodules/cutlass
 rm -rf build
 mkdir -p build && cd build
